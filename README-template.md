@@ -1,101 +1,91 @@
-# Frontend Mentor - Bento grid solution
+# 🧩 Frontend Mentor - Solución al reto *Bento Grid*
 
-This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta es una solución al reto [Bento Grid en Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Los retos de Frontend Mentor te ayudan a mejorar tus habilidades de programación construyendo proyectos realistas.
 
-## Table of contents
+## 📑 Tabla de contenidos
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [🗂 Resumen](#-resumen)
+  - [📌 El reto](#-el-reto)
+  - [🖼️ Captura de pantalla](#️-captura-de-pantalla)
+  - [🔗 Enlaces](#-enlaces)
+- [🚀 Mi proceso](#-mi-proceso)
+  - [🧱 Construido con](#-construido-con)
+  - [📚 Lo que aprendí](#-lo-que-aprendí)
+  - [🧠 Desarrollo continuo](#-desarrollo-continuo)
+  - [🔍 Recursos útiles](#-recursos-útiles)
+- [👨‍💻 Autor](#-autor)
+- [🙏 Agradecimientos](#-agradecimientos)
 
-## Overview
+---
 
-### The challenge
+## 🗂 Resumen
 
-Users should be able to:
+### 📌 El reto
 
-- View the optimal layout for the interface depending on their device's screen size
+Los usuarios deben poder:
 
-### Screenshot
+- Ver el diseño óptimo de la interfaz dependiendo del tamaño de pantalla del dispositivo.
 
-![](./design/Solution-Laptop.png)
-![](./design/Solution-Mobile.png)
+### 🖼️ Captura de pantalla
 
-### Links
+- Pantallas grandes (1440px)  
+  ![](./design/Solution-Laptop.png)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Pantallas móviles (375px)  
+  ![](./design/Solution-Mobile.png)
 
-## My process
+### 🔗 Enlaces
 
-### Built with
+- **URL del repositorio:** [Agrega la URL aquí](https://github.com/David-Soriano/bento-grid)
+- **Sitio en vivo:** [Agrega la URL del despliegue aquí](https://tusitio.com)
 
-- Semantic HTML5 markup
-- CSS custom properties
+---
+
+## 🚀 Mi proceso
+
+### 🧱 Construido con
+
+- HTML5 semántico
+- Propiedades personalizadas de CSS (variables)
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Flujo de trabajo *mobile-first*
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### 📚 Lo que aprendí
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
+Durante este proyecto reforcé el uso de **CSS Grid** para crear diseños responsivos más avanzados. También practiqué el uso de variables personalizadas y la organización de componentes visuales en tarjetas reutilizables.
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1440px)">
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    --Purple-100: hsl(254, 88%, 90%);
+    --Purple-500: hsl(256, 67%, 59%);
+    --Yellow-100: hsl(31, 66%, 93%);
+    --Yellow-500: hsl(39, 100%, 71%);
+    --White-off: #F5F5F5;
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+### 🧠 Desarrollo continuo
+## Quiero seguir aprendiendo sobre:
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- Accesibilidad
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- Animaciones con CSS
 
-### Continued development
+- Buenas prácticas en responsive design
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Optimización del rendimiento
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### 🔍 Recursos útiles
 
-### Useful resources
+Documentación oficial de MDN Web Docs
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+### 👨‍💻 Autor
+- Frontend Mentor - [@JDavid Soriano](https://www.frontendmentor.io/profile/David-Soriano)
+- Linkedin - [@Juan David Soriano](https://www.linkedin.com/in/david-soriano-soft/)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+### 🙏 Agradecimientos
+Gracias a Frontend Mentor por proporcionar retos prácticos que ayudan a mejorar mis habilidades como desarrollador web. También a la comunidad por compartir soluciones e ideas que inspiran.
