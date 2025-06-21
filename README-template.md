@@ -36,8 +36,8 @@ Los usuarios deben poder:
 
 ### 🔗 Enlaces
 
-- **URL del repositorio:** [Agrega la URL aquí](https://github.com/David-Soriano/bento-grid)
-- **Sitio en vivo:** [Agrega la URL del despliegue aquí](https://tusitio.com)
+- **URL del repositorio:** [Bento-Grid](https://github.com/David-Soriano/bento-grid)
+- **Sitio en vivo:** [Github - Pages](https://david-soriano.github.io/bento-grid/)
 
 ---
 
